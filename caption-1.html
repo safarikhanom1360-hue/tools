@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ساز بیو و کپشن اینستاگرام | clipfix.fa</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f5fb;--card:#fff;--ink:#1d1a2e;--mute:#6b6784;--line:#e3e0f0;--acc:#6d3fd6;--onacc:#fff;--accbg:#ece6fb;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14111f;--card:#1e1a2f;--ink:#f1eefb;--mute:#a9a3c4;--line:#322c4a;--acc:#a58cff;--onacc:#1a1030;--accbg:#2b2447;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#14111f;--card:#1e1a2f;--ink:#f1eefb;--mute:#a9a3c4;--line:#322c4a;--acc:#a58cff;--onacc:#1a1030;--accbg:#2b2447;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Vazirmatn",Tahoma,sans-serif;line-height:1.8}
+main{max-width:560px;margin:0 auto;padding:16px 16px 40px}
+.brand{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;border-radius:18px;color:#fff;background:linear-gradient(135deg,#5b34c4,#d62976)}
+.brand small{display:block;opacity:.9}
+.brand b{font-size:1.5rem;font-weight:800;direction:ltr;display:block;text-align:right}
+.follow{flex:none;background:#fff;color:#a01f58;text-decoration:none;font-weight:600;padding:8px 16px;border-radius:999px}
+.follow:focus-visible,.tab:focus-visible,.chip:focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+h1{font-size:1.6rem;font-weight:800;margin:22px 0 2px;line-height:1.6}
+.sub{margin:0 0 16px;color:var(--mute)}
+.tabs{display:flex;border-bottom:1.5px solid var(--line);margin-bottom:14px}
+.tab{flex:1;background:none;border:0;border-bottom:4px solid transparent;margin-bottom:-1.5px;padding:10px;font:inherit;font-weight:600;color:var(--mute);cursor:pointer}
+.tab.on{color:var(--ink);border-bottom-color:var(--acc)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.chip{font:inherit;padding:6px 14px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.chip.on{background:var(--acc);border-color:var(--acc);color:var(--onacc)}
+.item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:10px}
+.item p{margin:0 0 10px;white-space:pre-line}
+.copy{font:inherit;font-size:.9rem;font-weight:600;background:var(--accbg);color:var(--acc);border:0;border-radius:8px;padding:4px 14px;cursor:pointer}
+.more{display:block;width:100%;font:inherit;font-weight:600;font-size:1.05rem;padding:13px;border-radius:14px;border:0;background:var(--acc);color:var(--onacc);cursor:pointer;margin-top:6px}
+.ad{margin:18px 0 0;text-align:center}.ad:empty{display:none}
+footer{margin-top:22px;text-align:center;font-size:.85rem;color:var(--mute)}
+</style>
+</head>
+<body>
+<main>
+<div class="brand">
+  <div><small>پیج ما در اینستاگرام</small><b>@clipfix.fa</b></div>
+  <a class="follow" href="https://instagram.com/clipfix.fa" target="_blank" rel="noopener">دنبال کن</a>
+</div>
+<h1>ساز بیو و کپشن اینستاگرام</h1>
+<p class="sub">یه دسته انتخاب کن، متن آماده بگیر و کپی کن.</p>
+<div class="tabs">
+  <button class="tab on" data-m="bio">بیو</button>
+  <button class="tab" data-m="cap">کپشن</button>
+</div>
+<div class="chips" id="chips"></div>
+<div id="out"></div>
+<button class="more" id="more">۴ تای دیگه</button>
+<div class="ad"><!-- 📢 جای تبلیغات: بعد از تأیید در شبکه‌ی تبلیغاتی (مثل یکتانت)، کد تبلیغ رو دقیقاً همین‌جا پیست کن --></div>
+<footer>ساخته‌شده برای دنبال‌کننده‌های <span dir="ltr">@clipfix.fa</span></footer>
+</main>
+<script>
+const D={
+bio:{
+'خفن':['🖤 آروم می‌رم، ولی ردپام می‌مونه','⚡ نه اولی، نه آخری. یه نسخه‌ی جداگانه','👑 تاج نمی‌خوام، خودم پادشاه خودمم','🔥 از خاکستر خودم ساخته شدم','🕶️ دیده نمی‌شم، چون جلوترم','🐺 گرگ تنها، شکارش رو خودش می‌کنه','🚀 سقفی که بقیه می‌بینن، کف منه','🎯 هدفم رو نشونه گرفتم، حرفی نمی‌مونه','⚔️ جنگیدم تا شدم اونی که باید می‌شدم','🌑 از تاریکی گذشتم، حالا نور خودمم'],
+'عمیق':['🌙 آدم‌ها رو از سکوتشون می‌شناسم','🍂 هر پایان، یه شروع پنهونه','🖋️ زخم‌هام قصه‌ی منن، نه ضعف من','🌊 آروم، ولی عمیق','🕊️ سبک شدم، چون رها کردم','📖 صفحه‌ی بعد، بهترین قسمته','🌌 کوچیکم، ولی یه کهکشان تو دلمه','☕ تلخ، ولی اصیل','🎧 دنیای من با هدفون شروع می‌شه','🌿 رشد می‌کنم، حتی تو سکوت'],
+'کسب‌وکار':['🏆 کیفیت، حرف اول ماست\n📩 سفارش: دایرکت','💎 هر محصول، یه انتخاب هوشمندانه\n🚚 ارسال سریع به سراسر کشور','✅ اصالت کالا، رضایت شما\n📞 مشاوره‌ی رایگان','🎁 فقط خرید نیست، یه تجربه‌ست\n🛒 سفارش آنلاین','🔥 تخفیف‌های ویژه فقط تو پیج\n🔔 اعلان پست‌ها رو روشن کن','🤝 اعتماد شما، سرمایه‌ی ماست\n📩 دایرکت = ثبت سفارش','⭐ انتخابی که پشیمونت نمی‌کنه\n📦 ارسال سریع','📦 سفارش ساده، تحویل سریع\n💬 پاسخگو تا آخر شب'],
+'عکاسی و هنر':['📸 جهان از دید من، قاب‌به‌قاب','🎞️ زمان رو نگه می‌دارم','🌅 نور رو دنبال می‌کنم، قصه رو پیدا می‌کنم','🎨 هنر یعنی حرفی که نمی‌شه گفت، فقط می‌شه کشید','🖼️ هر قاب، یه نفسِ حبس‌شده‌ست','🎬 ایده‌ها رو زنده می‌کنم','✨ دنیا رو جوری می‌بینم که بقیه ندیدن'],
+'ورزشی':['🔥 بدن می‌گه نه، ذهن می‌گه ادامه بده','💪 عرق امروز، افتخار فرداست','🏆 قهرمان‌ها تو سالن ساخته می‌شن، نه تو مسابقه','🏃 رقیبم دیروزِ خودمه','🥊 افتادم؟ آره. موندم؟ هرگز.','🏋️ سنگین‌ترین وزنه، بهونه‌ست','🧠 ذهن اول می‌بره، بدن بعدش'],
+'خنده‌دار':['☕ ۱۰٪ آدم، ۹۰٪ کافئین','📵 قرار بود ۵ دقیقه گوشی بزنم؛ الان ساعت ۳ شبه','🍕 تنها عشق پایدار زندگیم: پیتزا','🛌 تخصص: ساعت ۶ زنگ می‌زنه، ساعت ۱۲ بیدار می‌شم','🧠 مغزم ۱۰۰ تا تب بازه و هیچ‌کدوم کار نمی‌کنه','💸 حقوقم قبل از اینکه برسه، رفته','🤷 هنوز دارم فکر می‌کنم بزرگ بشم یا نه'],
+'عاشقانه':['❤️ قلبم یه جا ثبت‌نام کرده، جای دیگه‌ای نداره','🌹 عاشق شدم، ولی نه مثل بقیه','🫶 آرومم، چون تو هستی','🕯️ تو که باشی، شب‌ها هم روشنه','💍 یه عمر کنار هم','🥀 عاشقی یعنی موندن']
+},
+cap:{
+'خفن':['ساکتم، چون هیچ‌کس لایق توضیح دادن نیست.','بعضی‌ها رو باید از دور دوست داشت. بعضی‌ها رو از دور هم نه.','پشت سرم رو نگاه نمی‌کنم. هرچی لازم بود، با خودم آوردم.','نیازی نیست بلند حرف بزنم. نتیجه‌ی کارم صداش از همه بلندتره.','کاری کن که بی‌صدا هم دیده بشی.','بعضی‌ها دنبال شانس می‌گردن، من خودم می‌سازمش.','از افتادن نمی‌ترسم. یاد گرفتم چطور بلند شم.','تو بازی من، قوانین رو خودم می‌نویسم.','بهترین جواب به شک آدما، رسیدنه.','من همون آدم قبلی نیستم. اون، تو رو تحمل می‌کرد.','بعضی درها رو نباید دوباره باز کرد. کلیدش رو انداختم دور.','سخت‌ترین قدم همونیه که برمی‌داری وقتی کسی نگاه نمی‌کنه.'],
+'انگیزشی':['کسی نمیاد نجاتت بده. بلند شو، خودت بساز.','امروزت رو کم نگیر؛ فردا از روی همین امروز ساخته می‌شه.','ترس رو بذار صندلی عقب، ماشین رو خودت برون.','اگه رویات نمی‌ترسونتت، کوچیکه.','وقتی همه‌چی سخته، یعنی داری بالا می‌ری.','شروع کن. نه وقتی آماده‌ای، وقتی که تصمیم گرفتی.','هر روز یه آجر. یه روز می‌بینی قلعه ساختی.','نگو نمی‌تونم. بگو هنوز یاد نگرفتم.','ایده بدون عمل، فقط یه خیاله.','دیر شروع کردی؟ باشه. ولی از همه‌ی اونایی که نکردن جلوتری.'],
+'عاشقانه':['تو که میای، ساعت‌ها نمی‌دونن چقدر طول بکشن.','عاشقت شدم، نه چون کامل بودی؛ چون کنارت خودم بودم.','اگه دنیا یه کتاب بود، تو قشنگ‌ترین فصلش بودی.','اسمت رو که صدا می‌زنم، دنیا آروم می‌گیره.','تو بودی که یادم دادی دلتنگی هم شیرینه.','قشنگ‌ترین قسمت روزم، لحظه‌ایه که می‌بینمت.','با تو، سکوت هم حرف داره.','اگه عشق خونه نداشت، تو بودی که برام خونه شدی.','تو رو انتخاب کردم، هر روز، دوباره.','ساده‌ترین جمله‌ی دنیا: دوستت دارم. سخت‌ترینش: فقط تو.'],
+'تنهایی و دلتنگی':['بعضی آدم‌ها می‌رن، ولی جاشون همیشه می‌مونه.','شب، جاییه که همه‌ی حرف‌های نگفته میان بیرون.','می‌گم خوبم. این بزرگ‌ترین دروغ منه.','از همه‌چی دور شدم، به جز خاطره‌ها.','دلتنگی یعنی هنوز یه جای دلم مال توئه.','تنهایی بد نیست؛ بد اینه که یکی باشه و تنهات بذاره.','گاهی ساکتیم، چون حرفی که داریم فقط یه نفر می‌فهمه.'],
+'خنده‌دار':['رژیم گرفتم، ولی رژیم من رو نگرفت 😂','من: امشب زود می‌خوابم. ساعت ۳ شب: بریم قسمت بعد','پول خوشبختی نمی‌خره؛ ولی پیتزا می‌خره، که نزدیک‌ترینه 🍕','دوست داشتن ورزش مثل دوست داشتن دوشنبه‌ست؛ اصلاً وجود نداره.','تو خونه‌ی من قانون ساده‌ست: غذا اول، حرف بعد.','بزرگ‌ترین دستاورد امروزم: بلند شدم 😎','من آدم صبحی نیستم. من آدم ظهری‌ام که از صبح بدش میاد.','برنامه‌ی آخر هفته: هیچ‌چیز، با کیفیت بالا.','من و فرداهای مهم: دو دشمن قدیمی.','به نظرت کی بزرگ می‌شم؟ هیچ‌وقت، خیالت راحت.'],
+'دوستانه':['رفیق خوب همونیه که شب‌ها هم جواب بده.','با تو، هر روز یه خاطره‌ست و هر خاطره یه خنده.','رفاقت یعنی بدون اینکه توضیح بدی، بفهمه.','دوست‌ها خانواده‌ای هستن که خودمون انتخاب می‌کنیم.','کنار شما، دیوونگی هم قشنگه.','دنیا دو نفره قشنگ‌تره، رفیق.','با بعضی‌ها نه حرف لازمه، نه دلیل. فقط بودنشون.','تیم ما کوچیکه، ولی بزرگ‌ترین قلب‌ها رو داره.'],
+'سفر و طبیعت':['کوه نمی‌پرسه کی هستی. فقط می‌خواد قدم برداری.','هر جاده یه قصه‌ست؛ فقط باید راه بیفتی.','سفر یعنی گم شدن، برای پیدا کردن خودت.','غروب رو که دیدی می‌فهمی دنیا بدون فیلتر هم قشنگه.','چمدون رو ببند؛ دنیا منتظره.','طبیعت بهترین درمانگر منه.','دریا هیچ‌وقت عجله نداره، ولی همیشه می‌رسه.','تو سکوت جنگل، همه‌ی صداهای ذهنم آروم شد.']
+}};
+const $=id=>document.getElementById(id);
+let mode='bio',cat='',pool=[],pos=0,cur=[];
+
+function setCats(){
+  const ks=Object.keys(D[mode]);cat=ks[0];
+  $('chips').innerHTML=ks.map(k=>`<button class="chip" data-c="${k}">${k}</button>`).join('');
+  $('chips').querySelectorAll('.chip').forEach(b=>b.onclick=()=>{cat=b.dataset.c;load()});
+  load();
+}
+function load(){
+  pool=[...D[mode][cat]].sort(()=>Math.random()-.5);pos=0;
+  $('chips').querySelectorAll('.chip').forEach(b=>b.classList.toggle('on',b.dataset.c===cat));
+  render();
+}
+function render(){
+  cur=[0,1,2,3].map(k=>pool[(pos+k)%pool.length]);
+  pos=(pos+4)%pool.length;
+  $('out').innerHTML=cur.map((t,i)=>`<div class="item"><p>${t}</p><button class="copy" data-i="${i}">کپی</button></div>`).join('');
+  $('out').querySelectorAll('.copy').forEach(b=>b.onclick=()=>copy(cur[b.dataset.i],b));
+}
+async function copy(t,btn){
+  try{await navigator.clipboard.writeText(t)}
+  catch(_){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy')}catch(e){}a.remove()}
+  btn.textContent='کپی شد ✓';setTimeout(()=>btn.textContent='کپی',1500);
+}
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
+  mode=b.dataset.m;
+  document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===b));
+  setCats();
+});
+$('more').onclick=render;
+setCats();
+</script>
+</body>
+</html>
